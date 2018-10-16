@@ -1,0 +1,137 @@
+<html>
+<header style="text-align:center;color:red;font-size:30px;">Assignment 1</header>
+<head>
+<script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+
+<table id="table" style="width:80%">
+  <tr>
+
+    <th style="text-align:left">Name</th>
+    <th style="text-align:left">ID</th>
+    <th style="text-align:center">Grade 1</th>
+    <th style="text-align:center">Grade 2</th>
+    <th style="text-align:center">Grade 3</th>
+    <th style="text-align:center">Grade 4</th>
+    <th style="text-align:center">Grade 5</th>
+    <th id ="final"style="text-align:right">Final Grade</th>
+  </tr>
+  <tr>
+    <td  onkeyup="Avg(this.value)" contenteditable='true'>Paul</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>11111</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+     <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+     
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>John</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>23243</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+       <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+    
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>David</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>99999</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td  onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+    
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Peter</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>38938</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)"  contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+      <td  onkeyup="Avg(this.value)" contenteditable='false'></td>
+   
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>James</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>89453</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+     <td  onkeyup="Avg(this.value)" contenteditable='false'></td>
+   
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Phil</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>23432</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+     <td onkeyup="Avg(this.value)"  contenteditable='false'></td>
+    
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Yiu</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>55555</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td  onkeyup="Avg(this.value)" contenteditable='false'></td>
+    
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Jose</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>12112</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+      <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+  </tr>
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Alex</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>98898</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)"  contenteditable='true'>-</td>
+      <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+    
+  </tr>
+
+  <tr>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>Basil</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>68863</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+    <td onkeyup="Avg(this.value)" contenteditable='true'>-</td>
+     <td onkeyup="Avg(this.value)" contenteditable='false'></td>
+    
+  </tr>
+
+</table>
+<button id="Avg"  onChange="Avg()" class="button1">Calculate grade</button>
+<button id="submit" class="button2"> Un Submitted Assignments</button>
+
+</head>
+
+</html>
+

@@ -1,0 +1,52 @@
+table,th,td{
+
+  border-spacing:0.5rem;
+ border:1.5px solid lightblue;
+  border-collapse:collapse;
+   padding:20px;
+  margin-left:35px;
+  margin-top:20px;
+  
+}
+th{
+  padding:10px;
+  color:red;
+  background-color:#123343;
+}
+td{
+  font-family:sans-serif;
+}
+button{
+  margin-top:20px;
+	margin-left:230px;
+  height:50px;
+  font-size:16px;
+	color:yellow;
+	background-color:blue;
+  
+  border-radius:15px;
+  transition-duration: 0.4s;
+}
+#submit{
+   margin-top:30px;
+	margin-left:230px;
+  padding:12px;
+  height:50px;
+  font-size:16px;
+  color:yellow;
+	background-color:black;
+  border-radius:15px;
+}
+#final{
+  background-color:yellow;
+  color:maroon;
+}
+header{
+  font-family:sans-serif;
+  background-color:black;
+  margin-left:130px;
+  padding:25px;
+  border-radius:40px;
+  padding:width 120px;
+  
+}
